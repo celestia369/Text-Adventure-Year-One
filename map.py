@@ -1,6 +1,15 @@
 from items import *
 from decoder import *
-
+class room:
+    def __init__(self,name,description,items,puzzle,locked):
+        self.name = name
+        self.description = description
+        self.exits = null
+        self.items = items
+        self.puzzle = puzzle
+        self.locked = True
+    
+    
 
 room_reception = {
     "name": "Reception",
